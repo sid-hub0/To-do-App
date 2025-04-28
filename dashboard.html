@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do App - Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Firebase SDKs (compat versions) -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Your To-Do List</h1>
+    <button id="logout-btn">Logout</button>
+  </header>
+  <main>
+    <form id="task-form">
+      <input type="text" id="task-title" placeholder="Task Title" required>
+      <input type="date" id="task-due-date" required>
+      <input type="time" id="task-time" required>
+      <textarea id="task-desc" placeholder="Task Description"></textarea>
+      <button type="submit">Add Task</button>
+    </form>
+    <h2>Added Tasks</h2>
+    <div id="task-list"></div>
+  </main>
+</body>
+</html>
