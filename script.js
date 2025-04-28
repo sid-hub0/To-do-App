@@ -1,8 +1,8 @@
 // Replace with your Firebase config
 const firebaseConfig = {
-    apiKey: "AIzaSyCsmnSd5Y_pzBZmqNu78yCubDycJEQXEEY",
-    authDomain: "to-do-ac61b.firebaseapp.com",
-    projectId: "to-do-ac61b",
+    apiKey: "/////////////",
+    authDomain: "//////////////",
+    projectId: "///////////",
 };
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
